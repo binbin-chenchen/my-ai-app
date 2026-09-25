@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # 1. 基础配置
-api_key = ""  
+st.secrets[...]  
 url = "https://api.deepseek.com/v1/chat/completions"
 
 headers = {
