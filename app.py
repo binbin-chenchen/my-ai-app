@@ -7,7 +7,7 @@ try:
     api_key = st.secrets["DEEPSEEK_API_KEY"] 
 except:
     api_key = ""
-    url = "https://api.deepseek.com/v1/chat/completions"
+url = "https://api.deepseek.com/v1/chat/completions"
 headers = {
     "Authorization": "Bearer " + api_key,
     "Content-Type": "application/json"
