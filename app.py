@@ -4,7 +4,7 @@ import requests
 
 # 本地测试用的 API Key，替换成你自己的真实 Key
 try:
-    api_key = st.secrets["DEEPSEEK_API_key"] 
+    api_key = st.secrets["DEEPSEEK_API_KEY"] 
 except:
     api_key = ""
     url = "https://api.deepseek.com/v1/chat/completions"
