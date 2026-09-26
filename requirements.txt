@@ -1,5 +1,5 @@
-streamlit
-requests
-pandas
-openpyx1
+streamlit==1.33.0
+requests==2.31.0
+pandas==2.2.2
+openpyx1==3.1.2
 
